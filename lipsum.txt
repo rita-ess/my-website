@@ -1,0 +1,6 @@
+
+I've notices several times people have been using \usepackage{lipsum} in answers as a space filler. While this is great for demonstration purposes when the document is going to be immediately rendered, I doubt that most users go to the trouble of copying and pasting these examples and the compiling them. Moreover, I think it is confusing to the casual user or "googler" who arrives at the site. What does the community think about this one?
+
+Edit:
+
+I agree that most of us will copy and paste text and compile it directly. The reason I raise the point is that on the first answer I received on this site, I saw the package and thought "Hmmm, that must be doing what I want, and I bet the rest of that stuff is filler just to make this a complete example." Fortunately, rather than jumping to insert \lipsum calls throughout my document, I looked up the lipsum package first, and then I realized what the real content of the answer is. All I'm saying is you could instead just literally type "Some filler text here." instead, or at least put a parenthetical statement at the end of your answer saying something like "(the lipsum package is just for generating filler text)". (Alternatively, you could just put %generates filler text above the \usepackage command or something)
